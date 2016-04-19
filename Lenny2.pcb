@@ -1554,7 +1554,7 @@ Element["hidename" "PIC32MX270F256D-50I/ML" "U5" "NA" 925.00mil 1875.00mil 0.000
 	Pad[4.4901mm 0.8133mm 4.8436mm 1.1667mm 13.78mil 0.2800mm 17.78mil "D5/INT0/RB7" "43" "square,edge2"]
 	Pad[4.9497mm 13.92mil 5.3032mm 0.7071mm 13.78mil 0.2800mm 17.78mil "D4/RB8" "44" "square,edge2"]
 	Pad[-3.0052mm -3.0052mm -2.6517mm -2.6517mm 13.78mil 0.2800mm 17.78mil "AVDD" "17" "square"]
-	Pad[-3.4648mm -2.5455mm -3.1113mm -2.1921mm 13.78mil 0.2800mm 17.78mil "_MCLR_" "18" "found,selected,square,connected"]
+	Pad[-3.4648mm -2.5455mm -3.1113mm -2.1921mm 13.78mil 0.2800mm 17.78mil "_MCLR_" "18" "found,square,connected"]
 	Pad[-3.9244mm -2.0859mm -3.5709mm -1.7325mm 13.78mil 0.2800mm 17.78mil "RA0" "19" "square"]
 	Pad[-4.3840mm -1.6263mm -4.0305mm -1.2729mm 13.78mil 0.2800mm 17.78mil "RA1" "20" "square"]
 	Pad[-4.8436mm -1.1667mm -4.4901mm -0.8133mm 13.78mil 0.2800mm 17.78mil "P1D/RB0" "21" "square"]
@@ -1751,10 +1751,15 @@ Element["hidename" "" "D5" "Red" 1250.00mil 450.00mil 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["hidename" "" "R4" "" 18.5500mm 36.7500mm 0.0000 0.0000 3 100 ""]
+Element["hidename" "" "R4" "10KΩ" 18.5500mm 36.7500mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "1" "found,square,connected"]
-	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "2" "square"]
+	Attribute("device" "MC0063W0603110K")
+	Attribute("manufacturer" "MULTICOMP")
+	Attribute("manufacturer_part_number" "MC0063W0603110K")
+	Attribute("vendor" "Farnell")
+	Attribute("vendor_part_number" "2130939")
+	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "1" "1" "found,square,connected"]
+	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "2" "2" "square"]
 	ElementLine [-1.5000mm 0.7500mm 1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm -1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm 1.5000mm -0.7500mm 5.91mil]
@@ -1762,10 +1767,15 @@ Element["hidename" "" "R4" "" 18.5500mm 36.7500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["hidename" "" "R2" "" 40.5500mm 21.2500mm 0.0000 0.0000 3 100 ""]
+Element["hidename" "" "R2" "10KΩ" 40.5500mm 21.2500mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "1" "square"]
-	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "2" "square"]
+	Attribute("device" "MC0063W0603110K")
+	Attribute("manufacturer" "MULTICOMP")
+	Attribute("manufacturer_part_number" "MC0063W0603110K")
+	Attribute("vendor" "Farnell")
+	Attribute("vendor_part_number" "2130939")
+	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "1" "1" "square"]
+	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "2" "2" "square"]
 	ElementLine [-1.5000mm 0.7500mm 1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm -1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm 1.5000mm -0.7500mm 5.91mil]
@@ -1773,10 +1783,15 @@ Element["hidename" "" "R2" "" 40.5500mm 21.2500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["hidename" "" "R3" "" 43.5500mm 21.2500mm 0.0000 0.0000 3 100 ""]
+Element["hidename" "" "R3" "10KΩ" 43.5500mm 21.2500mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "1" "square"]
-	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "2" "square"]
+	Attribute("device" "MC0063W0603110K")
+	Attribute("manufacturer" "MULTICOMP")
+	Attribute("manufacturer_part_number" "MC0063W0603110K")
+	Attribute("vendor" "Farnell")
+	Attribute("vendor_part_number" "2130939")
+	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "1" "1" "square"]
+	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "2" "2" "square"]
 	ElementLine [-1.5000mm 0.7500mm 1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm -1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm 1.5000mm -0.7500mm 5.91mil]
@@ -1784,10 +1799,15 @@ Element["hidename" "" "R3" "" 43.5500mm 21.2500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["hidename" "" "R1" "" 47.3000mm 16.7500mm 0.0000 0.0000 2 100 ""]
+Element["hidename" "" "R1" "1MΩ" 47.3000mm 16.7500mm 0.0000 0.0000 2 100 ""]
 (
-	Pad[-0.0400mm 0.7750mm 0.0400mm 0.7750mm 0.7850mm 0.2800mm 0.8650mm "" "1" "square"]
-	Pad[-0.0400mm -0.7750mm 0.0400mm -0.7750mm 0.7850mm 0.2800mm 0.8650mm "" "2" "square"]
+	Attribute("device" "MCWR06X1004FTL")
+	Attribute("manufacturer" "MULTICOMP")
+	Attribute("manufacturer_part_number" "MCWR06X1004FTL")
+	Attribute("vendor" "Farnell")
+	Attribute("vendor_part_number" "2446602")
+	Pad[-0.0400mm 0.7750mm 0.0400mm 0.7750mm 0.7850mm 0.2800mm 0.8650mm "1" "1" "square"]
+	Pad[-0.0400mm -0.7750mm 0.0400mm -0.7750mm 0.7850mm 0.2800mm 0.8650mm "2" "2" "square"]
 	ElementLine [-0.7500mm -1.5000mm -0.7500mm 1.5000mm 5.91mil]
 	ElementLine [-0.7500mm -1.5000mm 0.7500mm -1.5000mm 5.91mil]
 	ElementLine [0.7500mm -1.5000mm 0.7500mm 1.5000mm 5.91mil]
@@ -1795,10 +1815,15 @@ Element["hidename" "" "R1" "" 47.3000mm 16.7500mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["hidename" "" "L2" "" 18.5500mm 38.2500mm 0.0000 0.0000 1 100 ""]
+Element["hidename" "" "L2" "550mΩ" 18.5500mm 38.2500mm 0.0000 0.0000 1 100 ""]
 (
-	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "1" "square"]
-	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "2" "square"]
+	Attribute("device" "2506031027Y0")
+	Attribute("manufacturer" "FAIR-RITE")
+	Attribute("manufacturer_part_number" "2506031027Y0")
+	Attribute("vendor" "Farnell")
+	Attribute("vendor_part_number" "1463451")
+	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "1" "1" "square"]
+	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "2" "2" "square"]
 	ElementLine [-1.5000mm -0.7500mm 1.5000mm -0.7500mm 5.91mil]
 	ElementLine [1.5000mm -0.7500mm 1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm 0.7500mm 1.5000mm 0.7500mm 5.91mil]
@@ -1806,10 +1831,15 @@ Element["hidename" "" "L2" "" 18.5500mm 38.2500mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["hidename" "" "L1" "" 18.5500mm 39.7500mm 0.0000 0.0000 1 100 ""]
+Element["hidename" "" "L1" "550mΩ" 18.5500mm 39.7500mm 0.0000 0.0000 1 100 ""]
 (
-	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "1" "square"]
-	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "2" "square"]
+	Attribute("device" "2506031027Y0")
+	Attribute("manufacturer" "FAIR-RITE")
+	Attribute("manufacturer_part_number" "2506031027Y0")
+	Attribute("vendor" "Farnell")
+	Attribute("vendor_part_number" "1463451")
+	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "1" "1" "square"]
+	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "2" "2" "square"]
 	ElementLine [-1.5000mm -0.7500mm 1.5000mm -0.7500mm 5.91mil]
 	ElementLine [1.5000mm -0.7500mm 1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm 0.7500mm 1.5000mm 0.7500mm 5.91mil]
@@ -1817,10 +1847,15 @@ Element["hidename" "" "L1" "" 18.5500mm 39.7500mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["hidename" "" "C8" "" 18.5500mm 41.2500mm 0.0000 0.0000 3 100 ""]
+Element["hidename" "" "C8" "100nF" 18.5500mm 41.2500mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "1" "square"]
-	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "2" "square"]
+	Attribute("device" "CC0603ZRY5V9BB104")
+	Attribute("manufacturer" "YAEGO")
+	Attribute("manufacturer_part_number" "CC0603ZRY5V9BB104")
+	Attribute("vendor" "Farnell")
+	Attribute("vendor_part_number" "2366349")
+	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "1" "1" "square"]
+	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "2" "2" "square"]
 	ElementLine [-1.5000mm 0.7500mm 1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm -1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm 1.5000mm -0.7500mm 5.91mil]
@@ -1828,10 +1863,15 @@ Element["hidename" "" "C8" "" 18.5500mm 41.2500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["hidename" "" "C7" "" 26.6500mm 41.4500mm 0.0000 0.0000 3 100 ""]
+Element["hidename" "" "C7" "100nF" 26.6500mm 41.4500mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "1" "square"]
-	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "2" "square"]
+	Attribute("device" "CC0603ZRY5V9BB104")
+	Attribute("manufacturer" "YAEGO")
+	Attribute("manufacturer_part_number" "CC0603ZRY5V9BB104")
+	Attribute("vendor" "Farnell")
+	Attribute("vendor_part_number" "2366349")
+	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "1" "1" "square"]
+	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "2" "2" "square"]
 	ElementLine [-1.5000mm 0.7500mm 1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm -1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm 1.5000mm -0.7500mm 5.91mil]
@@ -1839,10 +1879,15 @@ Element["hidename" "" "C7" "" 26.6500mm 41.4500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["hidename" "" "C5" "" 17.9000mm 52.4000mm 0.0000 0.0000 1 100 ""]
+Element["hidename" "" "C5" "100nF" 17.9000mm 52.4000mm 0.0000 0.0000 1 100 ""]
 (
-	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "1" "square"]
-	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "2" "square"]
+	Attribute("device" "CC0603ZRY5V9BB104")
+	Attribute("manufacturer" "YAEGO")
+	Attribute("manufacturer_part_number" "CC0603ZRY5V9BB104")
+	Attribute("vendor" "Farnell")
+	Attribute("vendor_part_number" "2366349")
+	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "1" "1" "square"]
+	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "2" "2" "square"]
 	ElementLine [-1.5000mm -0.7500mm 1.5000mm -0.7500mm 5.91mil]
 	ElementLine [1.5000mm -0.7500mm 1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm 0.7500mm 1.5000mm 0.7500mm 5.91mil]
@@ -1850,10 +1895,15 @@ Element["hidename" "" "C5" "" 17.9000mm 52.4000mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["hidename" "" "C6" "" 29.1500mm 52.2000mm 0.0000 0.0000 3 100 ""]
+Element["hidename" "" "C6" "100nF" 29.1500mm 52.2000mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "1" "square"]
-	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "2" "square"]
+	Attribute("device" "CC0603ZRY5V9BB104")
+	Attribute("manufacturer" "YAEGO")
+	Attribute("manufacturer_part_number" "CC0603ZRY5V9BB104")
+	Attribute("vendor" "Farnell")
+	Attribute("vendor_part_number" "2366349")
+	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "1" "1" "square"]
+	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "2" "2" "square"]
 	ElementLine [-1.5000mm 0.7500mm 1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm -1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm 1.5000mm -0.7500mm 5.91mil]
@@ -1861,10 +1911,15 @@ Element["hidename" "" "C6" "" 29.1500mm 52.2000mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["hidename" "" "C10" "" 16.4500mm 57.2500mm 0.0000 0.0000 2 100 ""]
+Element["hidename" "" "C10" "100nF" 16.4500mm 57.2500mm 0.0000 0.0000 2 100 ""]
 (
-	Pad[-0.0400mm 0.7750mm 0.0400mm 0.7750mm 0.7850mm 0.2800mm 0.8650mm "" "1" "square"]
-	Pad[-0.0400mm -0.7750mm 0.0400mm -0.7750mm 0.7850mm 0.2800mm 0.8650mm "" "2" "square"]
+	Attribute("device" "CC0603ZRY5V9BB104")
+	Attribute("manufacturer" "YAEGO")
+	Attribute("manufacturer_part_number" "CC0603ZRY5V9BB104")
+	Attribute("vendor" "Farnell")
+	Attribute("vendor_part_number" "2366349")
+	Pad[-0.0400mm 0.7750mm 0.0400mm 0.7750mm 0.7850mm 0.2800mm 0.8650mm "1" "1" "square"]
+	Pad[-0.0400mm -0.7750mm 0.0400mm -0.7750mm 0.7850mm 0.2800mm 0.8650mm "2" "2" "square"]
 	ElementLine [-0.7500mm -1.5000mm -0.7500mm 1.5000mm 5.91mil]
 	ElementLine [-0.7500mm -1.5000mm 0.7500mm -1.5000mm 5.91mil]
 	ElementLine [0.7500mm -1.5000mm 0.7500mm 1.5000mm 5.91mil]
@@ -1872,10 +1927,15 @@ Element["hidename" "" "C10" "" 16.4500mm 57.2500mm 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["hidename" "" "C2" "" 30.4000mm 30.9500mm 0.0000 0.0000 3 100 ""]
+Element["hidename" "" "C2" "1µF" 30.4000mm 30.9500mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "1" "square"]
-	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "2" "square"]
+	Attribute("device" "MC0603F105Z160CT")
+	Attribute("manufacturer" "MULTICOMP")
+	Attribute("manufacturer_part_number" "MC0603F105Z160CT")
+	Attribute("vendor" "Farnell")
+	Attribute("vendor_part_number" "1759408")
+	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "1" "1" "square"]
+	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "2" "2" "square"]
 	ElementLine [-1.5000mm 0.7500mm 1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm -1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm -0.7500mm 1.5000mm -0.7500mm 5.91mil]
@@ -1883,10 +1943,15 @@ Element["hidename" "" "C2" "" 30.4000mm 30.9500mm 0.0000 0.0000 3 100 ""]
 
 	)
 
-Element["hidename" "" "C4" "" 33.5000mm 30.9500mm 0.0000 0.0000 1 100 ""]
+Element["hidename" "" "C4" "1µF" 33.5000mm 30.9500mm 0.0000 0.0000 1 100 ""]
 (
-	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "1" "square"]
-	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "" "2" "square"]
+	Attribute("device" "MC0603F105Z160CT")
+	Attribute("manufacturer" "MULTICOMP")
+	Attribute("manufacturer_part_number" "MC0603F105Z160CT")
+	Attribute("vendor" "Farnell")
+	Attribute("vendor_part_number" "1759408")
+	Pad[-0.7750mm -0.0400mm -0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "1" "1" "square"]
+	Pad[0.7750mm -0.0400mm 0.7750mm 0.0400mm 0.7850mm 0.2800mm 0.8650mm "2" "2" "square"]
 	ElementLine [-1.5000mm -0.7500mm 1.5000mm -0.7500mm 5.91mil]
 	ElementLine [1.5000mm -0.7500mm 1.5000mm 0.7500mm 5.91mil]
 	ElementLine [-1.5000mm 0.7500mm 1.5000mm 0.7500mm 5.91mil]
@@ -1894,9 +1959,14 @@ Element["hidename" "" "C4" "" 33.5000mm 30.9500mm 0.0000 0.0000 1 100 ""]
 
 	)
 
-Element["hidename" "" "CONN7" "" 45.6540mm 66.0690mm 0.0000 0.0000 0 100 ""]
+Element["hidename" "" "CONN7" "unknown" 45.6540mm 66.0690mm 0.0000 0.0000 0 100 ""]
 (
-	Pin[0.0000 0.0000 1.6000mm 0.3000mm 1.6508mm 1.0000mm "" "1" "thermal(0X,1X,9X)"]
+	Attribute("device" "testpoint")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 1.6000mm 0.3000mm 1.6508mm 1.0000mm "1" "1" "thermal(0X,1X,9X)"]
 	ElementLine [25.00mil -50.00mil 50.00mil -25.00mil 5.91mil]
 	ElementLine [50.00mil -25.00mil 50.00mil 25.00mil 5.91mil]
 	ElementLine [50.00mil 25.00mil 25.00mil 50.00mil 5.91mil]
