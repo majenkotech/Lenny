@@ -1,0 +1,37 @@
+# PcbBOM Version 1.0
+# Date: Fri May 13 00:02:20 2016 UTC
+# Author: Matt Jenkins
+# Title: (unknown) - PCB BOM
+# Quantity, Description, Value, RefDes
+# --------------------------------------------
+1,"2212S-06SG-85","6",CONN4 
+1,"M20-9980346","3x2",CONN8 
+2,"2212S-08SG-85","8",CONN2 CONN6 
+1,"MJ-179PH","NA",CONN1 
+1,"ASEMB-8.000MHZ-LY-T","8MHz",U4 
+1,"ICSP","DNP",CONN9 
+2,"CC0805KKX5R5BB106","10µF",C9 C3 
+2,"KSEM31G-LFS","1.6N",S2 S1 
+1,"CAY16-102J4LF","1KΩ",RP1 
+2,"1N5819HW-7-F","1A",D1 D6 
+1,"MC1206X106K250CT","10uF",C1 
+1,"LD1117S50TR","5V",U1 
+1,"MCP1825S-3302E-DB","3.3V",U2 
+1,"1206L050YR","500mA",F1 
+1,"MCP6001T-I-OT","NA",U3 
+1,"IRLML6402PBF","65mΩ",Q1 
+1,"2212S-10SG-85","10",CONN5 
+1,"(unknown)","Green",D2 
+1,"(unknown)","Yellow",D4 
+2,"(unknown)","Red",D3 D5 
+3,"(unknown)","10KΩ",R4 R2 R3 
+2,"(unknown)","550mΩ",L2 L1 
+5,"(unknown)","100nF",C8 C7 C5 C6 C10 
+2,"(unknown)","1µF",C2 C4 
+1,"(unknown)","unknown",CONN7 
+1,"47346-0001","Micro B",CONN3 
+1,"(unknown)","1MΩ",R1 
+1,"LinkedJumper","unknown",J1 
+1,"PIC32MX270F256D-50I-ML-45","NA",U5 
+1,"CC0603ZRY5V9BB104","100nF",C11 
+1,"MC0063W0603110K","10KΩ",R5 
